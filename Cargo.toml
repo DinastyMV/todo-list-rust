@@ -1,0 +1,11 @@
+[package]
+name = "ToDoList"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matheus V. <matheusbispotm@gmail.com>"]
+description = "Uma simples ToDoList em Rust, rodando no terminal"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
